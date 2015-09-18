@@ -1,0 +1,23 @@
+{
+  "name": "Data",
+  "version": "0.1.0",
+  "description": "A library to test the type and properties of datas.",
+  "main": "src/Data.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "build": "sh build_system.sh",
+    "install": "npm build; npm test"
+  },
+  "keywords": [
+    "data",
+    "type",
+    "test"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-assert": "^1.0.2",
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.2"
+  }
+}
